@@ -39,7 +39,7 @@ def load_data_to_aws_s3(ti) -> None:
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2015, 6, 1),
+    'start_date': datetime(2023, 3, 23),
     'email': ['airflow@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
